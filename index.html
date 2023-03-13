@@ -2,45 +2,50 @@
 <html>
     <head>
         <title>listing 5.1</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
+    <body class="body">
+        <div class="form">
         <form action="mailto: tamashertogs@gmail.com" method="post">
-            <label for="fname">Voornaam:</label>
+            <label  for="fname">Voornaam:</label>
             <br>
-            <input type="text" id="fname" name="fname" placeholder="voornaam" value="" required>
+            <input class="input" type="text" id="fname" name="fname" placeholder="voornaam" value="" maxlength="100" required >
             <br>
 
             <label for="lname">Achternaam:</label>
             <br>
-            <input type="text" id="lname" name="lname" placeholder="achternaam" value="" required>
+            <input class="input" type="text" id="lname" name="lname" placeholder="achternaam" value="" maxlength="100" required>
             <br>
 
             <label for="adres">Adres:</label>
             <br>
-            <input type="text" id="adres" name="adres" placeholder="straat, hiusnummer," value=""required>
+            <input class="input" type="text" id="adres" name="adres" placeholder="straat, hiusnummer," value="" maxlength="100" required>
             <br>
 
             <label for="Postcode">Postcode:</label>
             <br>
-            <input type="text" id="Postcode" name="Postcode" placeholder="Postcode" value="" required>
+            <input class="input" type="text" id="Postcode" name="Postcode" placeholder="Postcode" value="" maxlength="6" required>
             <br>
 
             <label for="Woonplaats">Woonplaats:</label>
             <br>
-            <input type="text" id="Woonplaats" name="Woonplaats" placeholder="Stad" value="" required>
+            <input class="input" type="text" id="Woonplaats" name="Woonplaats" placeholder="Stad" value="" maxlength="100" required>
+            <br>
             <br>
 
             <label for="date">Datum:</label>
             <br>
-            <input type="date" id="date" name="date" placeholder="Datum" required>
+            <input class="input" type="date" id="date" name="date" placeholder="Datum" required>
+            <br>
             <br>
 
             <label for="email">Email:</label>
             <br>
-            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input class="input" type="email" id="email" name="email" placeholder="Email" required>
+            <br>
             <br>
 
-            <fieldset>
+            <fieldset class="field">
                 <legend>Geslacht:</legend>
             <label for="radio1">man</label>
             <input type="radio" id="radio1" name="gendr" required value="man">
@@ -50,20 +55,24 @@
             <input type="radio" id="radio3" name="gendr" value="anders">
             <br>
             </fieldset>
+            <br>
             
 
             <label for="opmerking">Opmerking:</label>
             <br>
-            <input type="textarea" id="opmerking" name="opmerking" placeholder="Opmerking" required>
+            <input class="input" type="textarea" id="opmerking" name="opmerking" placeholder="Opmerking" maxlength="400" required>
+            <br>
             <br>
 
             <label for="nieuws">Inschrijven voor de nieuwsbrief:</label>
             <br>
             <input type="checkbox" id="nieuws" name="nieuws" placeholder="Inschrijven voor de nieuwsbrief.">
             <br>
+            <br>
 
-            <input type="submit" value="submit">
+            <input class="input" type="submit" value="submit">
         </form>
+        </div>
         
     </body>
 </html>

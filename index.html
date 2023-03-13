@@ -4,21 +4,66 @@
         <title>listing 5.1</title>
     </head>
     <body>
-        <form action="mailto: Student@st.deltion.nl" method="post">
-            <label for="fname">
-                    Voornaam:
-            </label>
+        <form action="mailto: tamashertogs@gmail.com" method="post">
+            <label for="fname">Voornaam:</label>
             <br>
-            <input type="text" id="fname" name="fname" placeholder="voornaam" value="">
+            <input type="text" id="fname" name="fname" placeholder="voornaam" value="" required>
             <br>
+
             <label for="lname">Achternaam:</label>
             <br>
             <input type="text" id="lname" name="lname" placeholder="achternaam" value="">
             <br>
+
+            <label for="adres">Adres:</label>
+            <br>
+            <input type="text" id="adres" name="adres" placeholder="straat, hiusnummer," value="">
+            <br>
+
+            <label for="Postcode">Postcode:</label>
+            <br>
+            <input type="text" id="Postcode" name="Postcode" placeholder="Postcode" value="">
+            <br>
+
+            <label for="Woonplaats">Woonplaats:</label>
+            <br>
+            <input type="text" id="Woonplaats" name="Woonplaats" placeholder="Stad" value="">
+            <br>
+
+            <label for="date">Datum:</label>
+            <br>
+            <input type="date" id="date" name="date" placeholder="Datum">
+            <br>
+
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="Email">
+            <br>
+
+            <fieldset>
+                <legend>Geslacht:</legend>
+            <label for="radio1">man</label>
+            <input type="radio" id="radio1" name="radio1">
+            <label for="radio2">vrouw</label>
+            <input type="radio" id="radio2" name="radio2">
+            <label for="radio3">anders</label>
+            <input type="radio" id="radio3" name="radio3">
+            <br>
+            </fieldset>
+            
+
+            <label for="opmerking">Opmerking:</label>
+            <br>
+            <input type="textarea" id="opmerking" name="opmerking" placeholder="Opmerking">
+            <br>
+
+            <label for="nieuws">Inschrijven voor de nieuwsbrief:</label>
+            <br>
+            <input type="checkbox" id="nieuws" name="nieuws" placeholder="Inschrijven voor de nieuwsbrief.">
             <br>
 
             <input type="submit" value="submit">
-
         </form>
+        
     </body>
 </html>

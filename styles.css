@@ -1,0 +1,37 @@
+
+.h1 {
+    margin: 0 auto;
+    text-align: center;
+    
+
+}
+
+.form  {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.field {
+    width: 200px;
+    height: 36px;
+    border-color: rgb(67, 38, 195);
+    border-style: solid;
+    text-align: center;
+    margin:auto;
+    
+}
+
+.body {
+    background-color: darkcyan;
+}
+
+.input {
+   background-color: darkcyan;
+   border-color: rgb(67, 38, 195);
+   border-style: solid;
+}
+
+::placeholder {
+    color: black;
+}

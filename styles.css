@@ -1,14 +1,25 @@
-.form {
+
+.h1 {
+    margin: 0 auto;
+    text-align: center;
     
-margin:auto;
-width:1px;
+
+}
+
+.form  {
+    margin: 0 auto;
+    text-align: center;
+
 }
 
 .field {
     width: 200px;
     height: 36px;
-    border-color: cornflowerblue;
+    border-color: rgb(67, 38, 195);
     border-style: solid;
+    text-align: center;
+    margin:auto;
+    
 }
 
 .body {
@@ -17,7 +28,7 @@ width:1px;
 
 .input {
    background-color: darkcyan;
-   border-color: cornflowerblue;
+   border-color: rgb(67, 38, 195);
    border-style: solid;
 }
 
